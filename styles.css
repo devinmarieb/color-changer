@@ -1,6 +1,8 @@
 #random, #reset {
   height: 100px;
   width: 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold 700;
   font-size: 36pt;
   background-color: #E5B6D5;
   color: #FFFFFF;
@@ -12,4 +14,32 @@
   background-color: #B2479A;
   border-color: #CC7FB5 #E5B6D5;
   border-top: 8px solid #CC7FB5;
+}
+
+.button-section {
+  width: 700px;
+  height: 150px;
+  display: flex;
+  margin: 10% auto;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .button-section {
+    height: 300px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #random {
+    font-size: 24pt;
+    height: 100px;
+    width: 200px;
+  }
+  #reset {
+    font-size: 24pt;
+    height: 70px;
+    width: 200px;
+  }
 }
