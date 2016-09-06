@@ -2,8 +2,7 @@
   height: 100px;
   width: 300px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold 700;
-  font-size: 36pt;
+  font-size: 24pt;
   text-transform: uppercase;
   background-color: #E5B6D5;
   color: #FFFFFF;
@@ -33,7 +32,6 @@
     align-items: center;
   }
   #random {
-    font-size: 24pt;
     height: 100px;
     width: 200px;
   }
